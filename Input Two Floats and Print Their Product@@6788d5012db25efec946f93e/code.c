@@ -1,10 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    float a;
-    float b;
-    scanf("%f",&a);
-    scanf("%f",&b);
+    float a,b;
+    scanf("%f %f",&a,&b);
     printf("%f",a*b);
     return 0;
 }
