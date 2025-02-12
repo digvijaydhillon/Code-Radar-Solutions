@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 
 int main(){
     int a;
@@ -16,7 +16,7 @@ int main(){
         printf("D");
     }
     else if(a<60){
-        printf("D");
+        printf("F");
     }
 
 }
