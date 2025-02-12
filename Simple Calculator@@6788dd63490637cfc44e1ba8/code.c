@@ -2,7 +2,7 @@
 int main(){
     int a,b;
     char c;
-    float division ;
+    int division ;
     division = a/b;
     scanf("%d %d %c",&a,&b,&c);
     if(c=='+'){
