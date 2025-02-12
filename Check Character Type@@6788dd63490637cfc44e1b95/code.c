@@ -4,7 +4,7 @@ int main(){
     char a;
     scanf("%c",&a);
     if (a>='0'&&a<='9'){
-        printf("digit");
+        printf("Digit");
     }
     else if (a=='a'||a=='e'||a=='i'||a=='o'||a=='u'){
         printf("Vowel");
@@ -13,7 +13,7 @@ int main(){
         printf("Consonant");
     }
     else{
-        printf("special charater");
+        printf("Special Charater");
     }
 
 }
