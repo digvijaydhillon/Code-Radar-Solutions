@@ -12,4 +12,7 @@ int main(){
     else if(c>b&&a<c){
         printf("%d",c);
     }
+    else{
+        printf("%d",a);
+    }
 }
