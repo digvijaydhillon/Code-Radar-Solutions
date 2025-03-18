@@ -11,8 +11,8 @@ int main(){
         }
         printf("\n");
     }
-    for(int n=1;n<=a-1;n++){
-        for(int m=1;m<=n;m++){
+    for(int n=a-1;n>=1;n--){
+        for(int m=1;m<=n-1;m++){
             printf(" ");
         }
         for(int o=1;o<=a*2-3;o++){
