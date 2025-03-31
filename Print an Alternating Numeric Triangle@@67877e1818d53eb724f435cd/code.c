@@ -16,10 +16,10 @@ int main(){
         else if(i % 2 == 0){
             for(int k = 1; k <= i; k++){
                 if(k % 2 != 0){
-                    printf("1 ");
+                    printf("0 ");
                 }
                 else if(k % 2 == 0){
-                    printf("0 ");
+                    printf("1 ");
                 }
             }
         }
