@@ -1,21 +1,21 @@
 #include<stdio.h>
 int main(){
-    int a;
-    scanf("%d",&a);
-    for(int i=1;i<=a;i++){
-        for(int j=1;j<=a-i;j++){
+    int p;
+    scanf("%d",&p);
+    for(int a = 1; a <= p; a++){
+        for(int b = p - a; b >= 1; b--){
             printf(" ");
         }
-        for(int k=1;k<=2*i-1;k++){
+        for(int c = 1; c <= 2*a - 1; c++){
             printf("*");
         }
         printf("\n");
     }
-    for(int m=a-1;m>=1;m--){
-        for(int n=1;n<=a-m;n++){
+    for(int d = p - 1; d >= 1; d++){
+        for(int e = 1; e <= p - d; e++){
             printf(" ");
         }
-        for(int o=1;o<=m*2-1;o++){
+        for( int f = 1; f <= 2*d - 3; f++){
             printf("*");
         }
         printf("\n");
