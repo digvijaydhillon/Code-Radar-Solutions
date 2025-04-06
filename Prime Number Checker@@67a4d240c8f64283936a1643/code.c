@@ -5,6 +5,9 @@ int isPrime(int a){
         if(a % m == 0){
             count++ ;
         }
+        else{
+            continue;
+        }
     }
     if(count == 2 ){
         return 1;
