@@ -8,7 +8,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     for(int j = 0; j < num; j++){
-        printf("%d",isPrime(arr[j]));
+        printf("%d", isPrime(arr[j]));
     }
     return 0;
 }
@@ -16,7 +16,7 @@ int isPrime(int a){
     int count;
     for(int m = 1; m <= a, m++){
         if(a % m == 0){
-            count++;
+            count++ ;
         }
     }
     if(count == 2 ){
